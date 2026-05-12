@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark">
+    <title>Reading Hub</title>
+    <link rel="stylesheet" href="/hub/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>Reading Hub</h1>
+        <nav class="categories" id="categories">
+            <button class="cat active" data-category="">All</button>
+            <button class="cat" data-category="tech">Tech</button>
+            <button class="cat" data-category="research">Research</button>
+        </nav>
+    </header>
+
+    <main>
+        <ul id="feed" class="feed"></ul>
+        <div id="sentinel" class="sentinel" aria-hidden="true"></div>
+        <div id="status" class="status" role="status"></div>
+    </main>
+
+    <script src="/hub/app.js"></script>
+</body>
+</html>
